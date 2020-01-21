@@ -1,4 +1,4 @@
-# 🧐 Ek Kaynaklar
+# 🧐 Kaynaklar
 
 ## 🚀 Kişisel Çalışmalarım
 
