@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🎃 Kotlin](README.md)
+* [🎃 Kotlin Notlarım](README.md)
 * [🌟 Faydalı Kullanımlar](faydali-kullanimlar.md)
 * [💎 Değişkenler](degiskenler/README.md)
   * [🚴‍♂️ Giriş \| Değişkenler](degiskenler/giris.md)
