@@ -15,6 +15,7 @@
   * [🚴‍♂️ Giriş \| Coroutine](coroutine/giris.md)
   * [🏹 Dispatcher \| Coroutine](coroutine/dispatcher.md)
   * [🌄 Scope \| Coroutine](coroutine/scope.md)
+  * [🔗 Bağlantılar\| Coroutine](coroutine/baglantilar.md)
 * [📑 Yazım Kuralları](yazim-kurallari.md)
 * [🏃‍♂️ Hızlı Notlar](hizli-notlar.md)
 * [🧐 Kaynaklar](kaynaklar.md)
