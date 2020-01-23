@@ -62,6 +62,9 @@ fun main() = runBlocking<Unit> {
 
 ## 🏗️ İş Oluşturma
 
+* 🏃‍♂️ Thread nesnelerinden farklı olarak Job hemen başlatılır
+* ✋ Durdurmak için `cancel` metodu kullanılır
+
 ```kotlin
 val job = GlobalScope.launch { // Coroutine oluşturma (thread oluşturma gibi)
     delay(1000L)
@@ -69,6 +72,25 @@ val job = GlobalScope.launch { // Coroutine oluşturma (thread oluşturma gibi)
 }
 println("Hello,")
 job.join() // Coroutine bitene kadar bekleme (thread.join() gibi)
+```
+
+```kotlin
+val startTime = System.currentTimeMillis()
+val job = launch(Dispatchers.Default) {
+    var nextPrintTime = startTime
+    var i = 0
+    while (isActive) { // cancellable computation loop
+        // print a message twice a second
+        if (System.currentTimeMillis() >= nextPrintTime) {
+            println("job: I'm sleeping ${i++} ...")
+            nextPrintTime += 500L
+        }
+    }
+}
+delay(1300L) // delay a bit
+println("main: I'm tired of waiting!")
+job.cancelAndJoin() // cancels the job and waits for its completion
+println("main: Now I can quit.")
 ```
 
 ## 💠 Suspend Metotlar
