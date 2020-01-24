@@ -236,7 +236,7 @@ fun hasWifiDirectPermission(activity: Activity): Boolean {
 ## 💠 Parametre Olarak Fonksiyon
 
 * 💁‍♂️ Fonksiyonlar obje ise parametre olarak da kullanılabilir
-* 💡 [Tanımlama şekli](kotlinin-javaya-gore-avantajlari-kotlin-vs-java.md#degisken-tanimlamasi) ile parametre olarak verilebilir
+* 💡 [Tanımlama şekli](kotlin-vs-java.md#degisken-tanimlamasi) ile parametre olarak verilebilir
 
 ```kotlin
 fun func(inFunc: (ByteArray) -> Unit) {
