@@ -10,6 +10,7 @@
 * [👮‍♂️ Koşullar](kosullar.md)
 * [🚅 Diziler](diziler.md)
 * [🍎 Sınıflar](siniflar.md)
+* [📂 Dosya İşlemleri](dosya-islemleri.md)
 * [🌇 Coroutine](coroutine/README.md)
   * [🚴‍♂️ Giriş \| Coroutine](coroutine/giris.md)
   * [🏹 Dispatcher \| Coroutine](coroutine/dispatcher.md)
