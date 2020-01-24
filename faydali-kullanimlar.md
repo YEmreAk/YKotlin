@@ -166,6 +166,23 @@ a = b.also { b = a }
 
 ![](.gitbook/assets/kotlin_permission.png)
 
+## 🔪 Dizileri Parçalama
+
+* 🎯 Range metodu kullanılarak diziler parçalanabilmekte
+* 🐥 Çok kolay kullanımı vardır
+
+> 🐍 Python dizi parçalama işlemlerine benzemektedir
+
+```kotlin
+val byteArray = ByteArray()
+
+byteArray.slice(0..1)
+
+val bas = 10
+val son = 100
+byteArray.slice(bas..son)
+```
+
 ## 💎 Keyword Argument
 
 * ✨ Değişkenlerin adları ile onlara değer atayabilirsin
