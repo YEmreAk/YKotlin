@@ -153,6 +153,10 @@ funcT({ /* func1 */ }) {
 
 ![](../.gitbook/assets/kotlin_function_extension.png)
 
+{% hint style="warning" %}
+📢 `Uri` sınıfı temel java sınıflarından birisidir
+{% endhint %}
+
 ## 🔪 Dizileri Parçalama
 
 * 🎯 Range metodu kullanılarak diziler parçalanabilmekte
