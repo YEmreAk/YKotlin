@@ -6,6 +6,8 @@ description: >-
 
 # 🚀 Kotlin'in Java'ya Göre Avantajları \(Kotlin vs Java\)
 
+![](../.gitbook/assets/kotlin.png)
+
 ## ✨ Değişken Tanımlaması
 
 * 💦 Java'daki `final` yapısı yerine daha sade bir arayüz sunar
