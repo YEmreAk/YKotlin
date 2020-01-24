@@ -61,3 +61,20 @@ description: Kotlin'de diziler
   * ilkdeğer indexinde 1.0
   * ikincideğer indexinde 2.6 var.
 
+## 🔪 Dizileri Parçalama
+
+* 🎯 Range metodu kullanılarak diziler parçalanabilmekte
+* 🐥 Çok kolay kullanımı vardır
+
+> 🐍 Python dizi parçalama işlemlerine benzemektedir
+
+```kotlin
+val byteArray = ByteArray()
+
+byteArray.slice(0..1)
+
+val bas = 10
+val son = 100
+byteArray.slice(bas..son)
+```
+
