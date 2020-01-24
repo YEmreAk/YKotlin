@@ -2,8 +2,7 @@
 
 * [🎃 Kotlin Notlarım](README.md)
 * [✍ Kişisel Yazılarım](kisisel-yazilarim/README.md)
-  * [🚀 Kotlin'in Java'ya Göre Avantajları \(Kotlin vs Java\)](https://lib.yemreak.com/yazilar/kotlin-vs-java)
-* [🌟 Faydalı Kullanımlar](faydali-kullanimlar.md)
+  * [🚀 Kotlin'in Java'ya Göre Avantajları \(Kotlin vs Java\)](kisisel-yazilarim/faydali-kullanimlar.md)
 * [💎 Değişkenler](degiskenler/README.md)
   * [🚴‍♂️ Giriş \| Değişkenler](degiskenler/giris.md)
   * [⭐ Özellikler \| Değişkenler](degiskenler/ozellikler.md)

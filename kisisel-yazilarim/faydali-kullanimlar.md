@@ -1,8 +1,10 @@
 ---
-description: Kotlin niye tercih edilmeli (ve havalı) işte sebeplerim
+description: >-
+  Kotlin’i Java’ya nazaran daha kullanışlı (ve havalı) kılan nedir, kendi
+  farkındalıklarımla sizlere sunayım (kotlin vs java, java vs kotlin).
 ---
 
-# 🌟 Faydalı Kullanımlar
+# 🚀 Kotlin'in Java'ya Göre Avantajları \(Kotlin vs Java\)
 
 ## ✨ Değişken Tanımlaması
 
@@ -114,6 +116,34 @@ val reasonMsg = when (reason) {
 }
 ```
 
+## 💁‍♂️ Functional Arguments
+
+* 💦 Gereksiz yere parantez `(` kullanımı yoktur
+* ⚙️ Bu yapı ile otomatik olarak **son fonksiyona** tanımlanan işlemler atanır
+
+```kotlin
+button.setOnClickListener { view ->
+    // ...
+}
+
+/*
+// Java kullanımı
+button.setOnClickListener ( { view ->
+
+});
+*/
+
+fun funcT(func1: () -> Unit, func2 () -> Unit) { }
+
+funcT({ /* func1 */ }) {
+    // func2
+}
+```
+
+{% hint style="warning" %}
+📢 Functional argument olursa, sadece `metot {}` kullanılması durumunda sadece son argümana değer atanır
+{% endhint %}
+
 ## 👨‍💼 Run - Apply - Let - Also
 
 * 👪 Bir değişkenin birden fazla metodunu kullanmayı sağar
@@ -156,7 +186,7 @@ a = b.also { b = a }
 * 👇 Metotların üzerine geldiğinizde \(hover\) açıklamasında doküman linki olur
 * ⭐ Link üzerinden kullanım örneklerine erişirsiniz
 
-![](.gitbook/assets/kotlin_doc.png)
+![](../.gitbook/assets/kotlin_ktdoc.png)
 
 ## 👮‍♂️ İzinlerin Kontrolü
 
@@ -164,7 +194,7 @@ a = b.also { b = a }
 * 💁‍♂️ `@SupressLint("MissingPermission")` ile bunu engelleyebilirsiniz
 * 🤭 "Ne yaptığımın farkındayım, bana bulaşma" demek gibi
 
-![](.gitbook/assets/kotlin_permission.png)
+![](../.gitbook/assets/kotlin_permission.png)
 
 ## 🔪 Dizileri Parçalama
 
@@ -198,6 +228,10 @@ fun hasWifiDirectPermission(activity: Activity): Boolean {
     )
 }
 ```
+
+{% hint style="warning" %}
+📢 Functional argument olursa, sadece `metot {}` kullanılması durumunda sadece son argümana değer atanır
+{% endhint %}
 
 ## 💠 Parametre Olarak Fonksiyon
 
@@ -233,4 +267,10 @@ func(func2)
 | Fonksiyon çağırma | Database | Liste sıralama |
 | View işlemleri | Dosya okuma & yazma | JSON parsing |
 | LiveData işlemleri | Ağ işlemleri | DiffUtils |
+
+## 🧐 Daha Fazla
+
+{% embed url="https://kotlin.yemreak.com/" %}
+
+{% embed url="https://medium.com/@yedhrab/kotlinin-java-ya-g%C3%B6re-avantajlar%C4%B1-3e88ab5620bf" %}
 
