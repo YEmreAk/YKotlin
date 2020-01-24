@@ -156,11 +156,11 @@ funcT({ /* func1 */ }) {
 ```kotlin
 val byteArray = ByteArray()
 
-byteArray.slice(0..1)
+byteArray = byteArray.slice(0..1)
 
 val bas = 10
 val son = 100
-byteArray.slice(bas..son)
+byteArray = byteArray.slice(bas..son)
 ```
 
 ## 💎 Keyword Argument
