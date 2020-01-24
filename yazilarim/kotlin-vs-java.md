@@ -146,6 +146,13 @@ funcT({ /* func1 */ }) {
 📢 Functional argument olursa, sadece `metot {}` kullanılması durumunda sadece son argümana değer atanır
 {% endhint %}
 
+## ➕ Function Extension
+
+* 💁‍♂️ Tanımlı olan sınıflara `.` operatörü ile metotlar ekleyebilirsiniz
+* 👇 Alttaki örnekte `Uri` sınıfına `getInputStream` metodu ekliyoruz
+
+![](../.gitbook/assets/kotlin_function_extension.png)
+
 ## 🔪 Dizileri Parçalama
 
 * 🎯 Range metodu kullanılarak diziler parçalanabilmekte
