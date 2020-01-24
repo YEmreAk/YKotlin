@@ -146,58 +146,6 @@ funcT({ /* func1 */ }) {
 📢 Functional argument olursa, sadece `metot {}` kullanılması durumunda sadece son argümana değer atanır
 {% endhint %}
 
-## 👨‍💼 Run - Apply - Let - Also
-
-* 👪 Bir değişkenin birden fazla metodunu kullanmayı sağar
-* 🐣 Apply objelerine değer atarsınız
-* ▶️ Run ile alt metotlarını kullanırsın, sonucunu döndürürsünüz
-* 🙋‍♂️ Let ile objeyi koşullu kullanabilirsin
-* 💁‍♂️ Also ile "işlemi bitirmeden bir de bunu yap" deriz
-* 📈 Tekrar tekrar yazmayı engeller
-
-```kotlin
-val wifiFilter = IntentFilter().apply {
-    addAction(WifiP2pManager.WIFI_P2P_STATE_CHANGED_ACTION)
-    addAction(WifiP2pManager.WIFI_P2P_PEERS_CHANGED_ACTION)
-}
-
-obje.run {
-    metot2() // obje.metot2()
-    metot3() // obje.metot3() Döndürülür
-}
-
-obje?.let { // Koşullu kullanım
-    it.metot2() // obje.metot2()
-    it.metot3() // obje.metot3()
-}
-
-channel?.also { channel ->
-    wifiReceiver = WifiDirectBroadcastReceiver(manager, channel, this)
-}
-
-// Yer değiştirme
-a = b.also { b = a }
-```
-
-{% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [Scope Function](https://kotlinlang.org/docs/reference/scope-functions.html#functions) ve [Function Selections](https://kotlinlang.org/docs/reference/scope-functions.html#functions) alanlarına bakabilirsin.
-{% endhint %}
-
-## 👀 Dokümantasyon Linkleri
-
-* 👇 Metotların üzerine geldiğinizde \(hover\) açıklamasında doküman linki olur
-* ⭐ Link üzerinden kullanım örneklerine erişirsiniz
-
-![](../.gitbook/assets/kotlin_ktdoc.png)
-
-## 👮‍♂️ İzinlerin Kontrolü
-
-* 📢 İzin tanımlanmadığında hata verir
-* 💁‍♂️ `@SupressLint("MissingPermission")` ile bunu engelleyebilirsiniz
-* 🤭 "Ne yaptığımın farkındayım, bana bulaşma" demek gibi
-
-![](../.gitbook/assets/kotlin_permission.png)
-
 ## 🔪 Dizileri Parçalama
 
 * 🎯 Range metodu kullanılarak diziler parçalanabilmekte
@@ -255,6 +203,58 @@ var func2 = { byteArray -> /* ... */ }
 func(func2) 
 
 ```
+
+## 👨‍💼 Run - Apply - Let - Also
+
+* 👪 Bir değişkenin birden fazla metodunu kullanmayı sağar
+* 🐣 Apply objelerine değer atarsınız
+* ▶️ Run ile alt metotlarını kullanırsın, sonucunu döndürürsünüz
+* 🙋‍♂️ Let ile objeyi koşullu kullanabilirsin
+* 💁‍♂️ Also ile "işlemi bitirmeden bir de bunu yap" deriz
+* 📈 Tekrar tekrar yazmayı engeller
+
+```kotlin
+val wifiFilter = IntentFilter().apply {
+    addAction(WifiP2pManager.WIFI_P2P_STATE_CHANGED_ACTION)
+    addAction(WifiP2pManager.WIFI_P2P_PEERS_CHANGED_ACTION)
+}
+
+obje.run {
+    metot2() // obje.metot2()
+    metot3() // obje.metot3() Döndürülür
+}
+
+obje?.let { // Koşullu kullanım
+    it.metot2() // obje.metot2()
+    it.metot3() // obje.metot3()
+}
+
+channel?.also { channel ->
+    wifiReceiver = WifiDirectBroadcastReceiver(manager, channel, this)
+}
+
+// Yer değiştirme
+a = b.also { b = a }
+```
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Scope Function](https://kotlinlang.org/docs/reference/scope-functions.html#functions) ve [Function Selections](https://kotlinlang.org/docs/reference/scope-functions.html#functions) alanlarına bakabilirsin.
+{% endhint %}
+
+## 👀 Dokümantasyon Linkleri
+
+* 👇 Metotların üzerine geldiğinizde \(hover\) açıklamasında doküman linki olur
+* ⭐ Link üzerinden kullanım örneklerine erişirsiniz
+
+![](../.gitbook/assets/kotlin_ktdoc.png)
+
+## 👮‍♂️ İzinlerin Kontrolü
+
+* 📢 İzin tanımlanmadığında hata verir
+* 💁‍♂️ `@SupressLint("MissingPermission")` ile bunu engelleyebilirsiniz
+* 🤭 "Ne yaptığımın farkındayım, bana bulaşma" demek gibi
+
+![](../.gitbook/assets/kotlin_permission.png)
 
 ## 🚧 Threading
 
