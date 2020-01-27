@@ -1,13 +1,17 @@
 # 💠 Fonksiyonlar
 
-## 🔌 Fonksiyon Genişletmeleri
+## ➕ Function Extension
 
 * ➕ Olmayan metotları sınıflara sonradan dahil edebilirsiniz
+* 💁‍♂️ Tanımlı olan sınıflara `.` operatörü ile metotlar ekleyebilirsiniz
 * 🐥 Metot yerine `get() =` yapısı ile property \(özellik\) de eklenebilir
+* 👇 Alttaki örnekte `Uri` sınıfına `getInputStream` metodu ekliyoruz
+
+![](.gitbook/assets/kotlin_function_extension.png)
 
 ```kotlin
 // Metot genişletmeleri
-fun Uri.inputStream(activity: Activity): InputStream {
+fun Uri.getInputStream(activity: Activity): InputStream {
     return activity.contentResolver.openInputStream(this)!!
 }
 
@@ -37,5 +41,7 @@ info.isClient
 info.isServer
 ```
 
-
+{% hint style="warning" %}
+📢 `Uri` sınıfı temel java sınıflarından birisidir
+{% endhint %}
 
