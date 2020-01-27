@@ -8,6 +8,7 @@
   * [⭐ Özellikler \| Değişkenler](degiskenler/ozellikler.md)
   * [🐣 Erişim \| Değişkenler](degiskenler/erisim.md)
 * [👮‍♂️ Koşullar](kosullar.md)
+* [💠 Fonksiyonlar](fonksiyonlar.md)
 * [🚅 Diziler](diziler.md)
 * [🍎 Sınıflar](siniflar.md)
 * [📂 Dosya İşlemleri](dosya-islemleri.md)
