@@ -5,7 +5,7 @@
 * ➕ Olmayan metotları sınıflara sonradan dahil edebilirsiniz
 * 💁‍♂️ Tanımlı olan sınıflara `.` operatörü ile metotlar ekleyebilirsiniz
 * 🐥 Metot yerine `get() =` yapısı ile property \(özellik\) de eklenebilir
-* 👇 Alttaki örnekte `Uri` sınıfına `getInputStream` metodu ekliyoruz
+* 👇 Alttaki örneklerde `Uri` ve `WifiP2pInfo` sınıfına metodu ve özellik ekliyoruz
 
 ![](.gitbook/assets/kotlin_function_extension.png)
 
@@ -42,6 +42,6 @@ info.isServer
 ```
 
 {% hint style="warning" %}
-📢 `Uri` sınıfı temel java sınıflarından birisidir
+📢 `Uri` ve `WifiP2pInfo` sınıfı temel java sınıflarından birisidir
 {% endhint %}
 
