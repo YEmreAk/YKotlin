@@ -20,7 +20,7 @@ regex.find(response)?.value?.let { // İlk bulunanı döndürür
 }
 ```
 
-## ⭐ FindAll
+## 🍱 Gruplama
 
 ```kotlin
 val text = "Hello Alice. Hello Bob. Hello Eve."
