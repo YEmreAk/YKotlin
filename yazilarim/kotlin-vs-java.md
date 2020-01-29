@@ -258,6 +258,13 @@ a = b.also { b = a }
 
 ![](../.gitbook/assets/kotlin_ktdoc.png)
 
+## 📃 XML ID'lerini Koda Import Etme
+
+* 🔗 Kotlin otomatik olarak xml idlerini projeye dahil eder
+* 👨‍💻 `import kotlinx.android.synthetic.main.<layour>.*` ile dahil edilir
+
+![](../.gitbook/assets/image%20%281%29.png)
+
 ## 👮‍♂️ İzinlerin Kontrolü
 
 * 📢 İzin tanımlanmadığında hata verir
