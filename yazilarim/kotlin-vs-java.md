@@ -262,6 +262,7 @@ a = b.also { b = a }
 
 * 🔗 Kotlin otomatik olarak xml idlerini projeye dahil eder
 * 👨‍💻 `import kotlinx.android.synthetic.main.<layour>.*` ile dahil edilir
+* 💦 `findViewByID` metoduna gerek yoktur
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
