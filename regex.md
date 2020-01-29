@@ -20,6 +20,16 @@ regex.find(response)?.value?.let { // İlk bulunanı döndürür
 }
 ```
 
+## ⭐ FindAll
+
+```kotlin
+val text = "Hello Alice. Hello Bob. Hello Eve."
+val regex = Regex("Hello (.*?)[.]")
+val matches = regex.findAll(text)
+val names = matches.map { it.groupValues[1] }.joinToString()
+println(names) // Alice, Bob, Eve
+```
+
 ## 🔗 Faydalı Bağlantılar
 
 {% embed url="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/-regex/index.html" %}
