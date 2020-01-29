@@ -7,6 +7,7 @@
   * [🚴‍♂️ Giriş \| Değişkenler](degiskenler/giris.md)
   * [⭐ Özellikler \| Değişkenler](degiskenler/ozellikler.md)
   * [🐣 Erişim \| Değişkenler](degiskenler/erisim.md)
+* [💎 RegEx](regex.md)
 * [👮‍♂️ Koşullar](kosullar.md)
 * [💠 Fonksiyonlar](fonksiyonlar.md)
 * [🚅 Diziler](diziler.md)
