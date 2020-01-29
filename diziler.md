@@ -78,3 +78,15 @@ val son = 100
 byteArray.slice(bas..son)
 ```
 
+## 🧐 Filtreleme
+
+```kotlin
+val numbers = listOf("one", "two", "three", "four")  
+val longerThan3 = numbers.filter { it.length > 3 }
+println(longerThan3)
+```
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Filtering](https://kotlinlang.org/docs/reference/collection-filtering.html) alanına bakabilirsin.
+{% endhint %}
+
