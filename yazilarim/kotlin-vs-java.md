@@ -90,6 +90,13 @@ println(files?.size ?: "empty")
 val email = values["email"] ?: throw IllegalStateException("Email is missing!")
 ```
 
+## 🍎 Veri Sınıfları
+
+* 📈 Kotlin `class` veya `data class` yapısı ile `get` ve `set` kullanımı gerekmez
+* 🙄 Java ile resmin solundaki yapı gereklidir
+
+![](../.gitbook/assets/kotlin_dataclass.png)
+
 ## 🐣 Get Set Kullanımı
 
 * 🌌 Get set olmadan direkt olarak kullanabilirsiniz
