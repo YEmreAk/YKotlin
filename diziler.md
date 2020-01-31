@@ -84,6 +84,8 @@ byteArray.slice(bas..son)
 val numbers = listOf("one", "two", "three", "four")  
 val longerThan3 = numbers.filter { it.length > 3 }
 println(longerThan3)
+
+number.none { it.length > 5 } // Eğer 5 ten büyük yoksa true
 ```
 
 {% hint style="info" %}
