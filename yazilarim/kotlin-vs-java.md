@@ -301,7 +301,7 @@ a = b.also { b = a }
 
 ![](../.gitbook/assets/kotlin_permission.png)
 
-## 🚧 Threading
+## 🚧 Coroutine
 
 * 🕊️ Thread işlemlerini kolaylaştıran bir hafif yapıdır
 * 👷‍♂️ `Coroutine` ile inline thread kullanabilirsin
@@ -315,16 +315,30 @@ a = b.also { b = a }
 | View işlemleri | Dosya okuma & yazma | JSON parsing |
 | LiveData işlemleri | Ağ işlemleri | DiffUtils |
 
-## 🗃️ RoomDB Scope
+## 🗃️ RoomDB Coroutine Scope
 
+* 👮‍♂️ suspend deyimi ile thread gerektiren metotlar belirlenir
+* 🌌 Coroutine scope içerisinde kendilerine özgü thread ile çalıştırılır
+* 👋 `AsyncTask`'a el veda
 
-
+{% code title="ViewModel" %}
 ```kotlin
 fun refreshQuakes(quakes: List<Quake>) = viewModelScope.launch {
    repository.deleteAll()
    repository.insert(quakes.toTypedArray())
 }
+
+/*
+@Dao
+abstract class QuakeDao {
+	
+	@Query("DELETE FROM ${Quake.TABLE_NAME}")
+	abstract suspend fun deleteAll()
+	
+}
+*/
 ```
+{% endcode %}
 
 ## 🧐 Daha Fazla
 
