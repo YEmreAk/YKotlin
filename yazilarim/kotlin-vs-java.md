@@ -319,7 +319,7 @@ a = b.also { b = a }
 
 * 👮‍♂️ `suspend` deyimi ile thread gerektiren metotlar belirlenir
 * 🌌 Coroutine scope içerisinde kendilerine özgü thread ile çalıştırılır
-* 👋 `AsyncTask`'a elveda
+* 👋 `AsyncTask`'a elveda \(_zaten sevmedim_ 🙄\)
 
 {% code title="ViewModel" %}
 ```kotlin
