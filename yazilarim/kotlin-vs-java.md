@@ -180,6 +180,26 @@ val son = 100
 val slicedByteArray2: List<Byte> = BUFFER.slice(bas..son)
 ```
 
+## 💱 Dizileri Dönüştürme
+
+* 🚀 `toTypedArray`eklentisi ile direkt olarak List'i argümana çevirebilirsiniz
+
+> 📈 Java'dan çok daha verimli
+
+```kotlin
+val quakes: List<Quake> 
+val args: Array<out Quake> = quakes.toTypedArray()
+
+/* Java 
+List<String> yourList = List.of("hello", "world");
+yourVarargMethod(yourList.toArray(new String[0]));
+*/
+```
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Fonksiyonlar](../fonksiyonlar.md) alanına bakabilirsin.
+{% endhint %}
+
 ## 💎 Keyword Argument
 
 * ✨ Değişkenlerin adları ile onlara değer atayabilirsin
@@ -294,6 +314,17 @@ a = b.also { b = a }
 | Fonksiyon çağırma | Database | Liste sıralama |
 | View işlemleri | Dosya okuma & yazma | JSON parsing |
 | LiveData işlemleri | Ağ işlemleri | DiffUtils |
+
+## 🗃️ RoomDB Scope
+
+
+
+```kotlin
+fun refreshQuakes(quakes: List<Quake>) = viewModelScope.launch {
+   repository.deleteAll()
+   repository.insert(quakes.toTypedArray())
+}
+```
 
 ## 🧐 Daha Fazla
 
