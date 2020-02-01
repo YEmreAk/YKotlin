@@ -329,7 +329,7 @@ a = b.also { b = a }
 {% code title="ViewModel" %}
 ```kotlin
 fun refreshQuakes(quakes: List<Quake>) = viewModelScope.launch {
-   repository.deleteAll()
+   repository.deleteAll() // Dao üzerinden suspend metottur
    repository.insert(quakes.toTypedArray())
 }
 
@@ -338,7 +338,7 @@ fun refreshQuakes(quakes: List<Quake>) = viewModelScope.launch {
 abstract class QuakeDao {
 	
 	@Query("DELETE FROM ${Quake.TABLE_NAME}")
-	abstract suspend fun deleteAll()
+	abstract suspend fun deleteAll() // Burada suspend ile thread istiyoruz
 	
 }
 */
