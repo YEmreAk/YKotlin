@@ -317,7 +317,7 @@ a = b.also { b = a }
 
 ## 🗃️ RoomDB Coroutine Scope
 
-* 👮‍♂️ suspend deyimi ile thread gerektiren metotlar belirlenir
+* 👮‍♂️ `suspend` deyimi ile thread gerektiren metotlar belirlenir
 * 🌌 Coroutine scope içerisinde kendilerine özgü thread ile çalıştırılır
 * 👋 `AsyncTask`'a el veda
 
