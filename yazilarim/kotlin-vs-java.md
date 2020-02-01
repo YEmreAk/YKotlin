@@ -315,6 +315,10 @@ a = b.also { b = a }
 | View işlemleri | Dosya okuma & yazma | JSON parsing |
 | LiveData işlemleri | Ağ işlemleri | DiffUtils |
 
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Coroutine](../coroutine/) alanına bakabilirsin.
+{% endhint %}
+
 ## 🗃️ RoomDB Coroutine Scope
 
 * 👮‍♂️ `suspend` deyimi ile thread gerektiren metotlar belirlenir
