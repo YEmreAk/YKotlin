@@ -20,6 +20,10 @@ description: Java'yı android için tahtından eden genç ile nasıl anlaşılı
 Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olabilirsin.
 {% endhint %}
 
+## 🌟 Popüler İçerikler
+
+{% page-ref page="yazilarim/kotlin-vs-java.md" %}
+
 ## 🌍 Tüm YEmreAk İçerikleri
 
 ![](https://drive.google.com/uc?id=1LZoJzZyY_uYbl3zCxk6ZtZPaDiMHglMv)
