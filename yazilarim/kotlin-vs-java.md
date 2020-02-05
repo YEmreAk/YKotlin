@@ -14,6 +14,10 @@ description: >-
 * 💁‍♂️ Tüm paketi çevirmek için paketi seç ve bu komutu kullan
 * 👀 Neden geçmen gerektiğini öğrenmek için yazıyı okumaya devam et
 
+{% hint style="warning" %}
+📢 Çok büyük projeleri parça parça geçirmeniz tavsiye edilir
+{% endhint %}
+
 ## ✨ Değişken Tanımlaması
 
 * 💦 Java'daki `final` yapısı yerine daha sade bir arayüz sunar
