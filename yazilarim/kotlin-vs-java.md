@@ -8,6 +8,12 @@ description: >-
 
 ![](../.gitbook/assets/kotlin.png)
 
+## 🏂 Kotlin Dünyasına Giriş
+
+* 💫 Java kodlarını `Convert Java File to Kotlin` komutu ile Kotlin kodlarına çevirebilirsin
+* 💁‍♂️ Tüm paketi çevirmek için paketi seç ve bu komutu kullan
+* 👀 Neden geçmen gerektiğini öğrenmek için yazıyı okumaya devam et
+
 ## ✨ Değişken Tanımlaması
 
 * 💦 Java'daki `final` yapısı yerine daha sade bir arayüz sunar
