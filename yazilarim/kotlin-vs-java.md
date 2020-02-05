@@ -10,6 +10,9 @@ description: >-
 
 ## 🏂 Kotlin Dünyasına Giriş
 
+* 👁️ Açık kaynaklıdır \(Java kapalı\)
+* 🕰️ Java 8 eskidir, java 13 çıkmıştır
+* 🚀 Proje Kotlin dahi olsa Java sınıfları oluşturabilirsin
 * 💫 Java kodlarını `Convert Java File to Kotlin` komutu ile Kotlin kodlarına çevirebilirsin
 * 💁‍♂️ Tüm paketi çevirmek için paketi seç ve bu komutu kullan
 * 👀 Neden geçmen gerektiğini öğrenmek için yazıyı okumaya devam et
@@ -168,10 +171,12 @@ funcT({ /* func1 */ }) {
 * 💁‍♂️ Tanımlı olan sınıflara `.` operatörü ile metotlar ekleyebilirsiniz
 * 👇 Alttaki örnekte `Uri` sınıfına `getInputStream` metodu ekliyoruz
 
+> 📢 `Uri` sınıfı temel java sınıflarından birisidir
+
 ![](../.gitbook/assets/kotlin_function_extension.png)
 
-{% hint style="warning" %}
-📢 `Uri` sınıfı temel java sınıflarından birisidir
+{% hint style="success" %}
+🚀 Android Kotlin Extension'ları [Android KTX](https://developer.android.com/kotlin/ktx/extensions-list) paketi altındadır
 {% endhint %}
 
 ## 🔪 Dizileri Parçalama
