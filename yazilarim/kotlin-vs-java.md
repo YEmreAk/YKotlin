@@ -11,7 +11,7 @@ description: >-
 
 ## 🏂 Kotlin Dünyasına Giriş
 
-* 👁️ Açık kaynaklıdır \(Java kapalı\)
+* 👁️ Açık kaynaklıdır \(Java 13 kapalı, _openJDK hariç_\)
 * 🕰️ Java 8 eskidir, java 13 çıkmıştır
 * 🚀 Proje Kotlin dahi olsa Java sınıfları oluşturabilirsin
 * 💫 Java kodlarını `Convert Java File to Kotlin` komutu ile Kotlin kodlarına çevirebilirsin
