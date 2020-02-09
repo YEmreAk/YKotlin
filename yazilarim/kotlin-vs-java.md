@@ -361,6 +361,10 @@ abstract class QuakeDao {
 ```
 {% endcode %}
 
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [RoomDB - Android](https://android.yemreak.com/veriler/room-database) sayfasına bakabilirsin.
+{% endhint %}
+
 ## 🧐 Daha Fazla
 
 {% embed url="https://kotlin.yemreak.com/" %}
