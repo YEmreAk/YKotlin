@@ -2,6 +2,7 @@
 
 ## 📋 Tüm Değişiklikler
 
+- 23/02/2020 - 12:04:34 - [GitBook: [master] 2 pages modified](https://github.com/YEmreAk/YKotlin/commit/34ae11180e374a0ae064a2c72d6c23c12d1b5c89?diff=split) ~ Yunus Emre
 - 15/02/2020 - 18:13:47 - [👨‍🔧](https://github.com/YEmreAk/YKotlin/commit/0b61e3b661daa6822f007fd83190bd99abfd56f6?diff=split) ~ Yunus Emre
 - 15/02/2020 - 11:58:25 - [👀 Neler değişti alanı eklendi](https://github.com/YEmreAk/YKotlin/commit/1bb301bf4142691ce21f3691831db2270847de71?diff=split) ~ Yunus Emre
 - 15/02/2020 - 11:51:03 - [👀 Neler değişti alanı eklendi](https://github.com/YEmreAk/YKotlin/commit/d0a808a0a9b375ca8cde6bf7a1765d1029b5d238?diff=split) ~ Yunus Emre
