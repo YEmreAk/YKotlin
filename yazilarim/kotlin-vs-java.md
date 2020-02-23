@@ -365,9 +365,17 @@ abstract class QuakeDao {
 ‍🧙‍♂ Detaylı bilgi için [RoomDB - Android](https://android.yemreak.com/veriler/room-database) sayfasına bakabilirsin.
 {% endhint %}
 
+## 🔗 Faydalı Kaynaklar
+
+* [👨‍💻 From Java to kotlin](https://github.com/MindorksOpenSource/from-java-to-kotlin)
+
 ## 🧐 Daha Fazla
 
 {% embed url="https://kotlin.yemreak.com/" %}
 
 {% embed url="https://medium.com/@yedhrab/kotlinin-java-ya-g%C3%B6re-avantajlar%C4%B1-3e88ab5620bf" %}
+
+{% embed url="https://github.com/MindorksOpenSource/from-java-to-kotlin" %}
+
+
 
