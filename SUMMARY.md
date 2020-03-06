@@ -1,7 +1,7 @@
 # Table of contents
 
 * [🎃 Kotlin Notlarım](README.md)
-* [👀 Neler değişti](CHANGELOG.md)
+* [👀 Neler değişti](changelog.md)
 * [✍ Yazılarım](yazilarim/README.md)
   * [🚀 Kotlin'in Java'ya Göre Avantajları \(Kotlin vs Java\)](yazilarim/kotlin-vs-java.md)
   * [👷‍♂️ Kotlin Kurulumu](yazilarim/kotlin-kurulumu.md)
