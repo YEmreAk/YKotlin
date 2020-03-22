@@ -25,6 +25,7 @@
 * [📑 Yazım Kuralları](yazim-kurallari.md)
 * [🏃‍♂️ Hızlı Notlar](hizli-notlar.md)
 * [🧐 Kaynaklar](kaynaklar.md)
+* [🔗 Faydalı Kaynaklar](faydali-kaynaklar.md)
 
 ## Tüm Kişisel Notlarım
 
