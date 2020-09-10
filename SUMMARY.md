@@ -1,7 +1,7 @@
-# Table of contents
+# 📋 Tüm İçerikler
 
 * [🎃 Kotlin Notlarım](README.md)
-* [👀 Neler değişti](CHANGELOG.md)
+* [👀 Neler değişti](https://github.com/YEmreAk/YKotlin/blob/master/CHANGELOG.md)
 * [✍ Yazılarım](yazilarim/README.md)
   * [🚀 Kotlin'in Java'ya Göre Avantajları \(Kotlin vs Java\)](yazilarim/kotlin-vs-java.md)
   * [👷‍♂️ Kotlin Kurulumu](yazilarim/kotlin-kurulumu.md)
@@ -49,4 +49,3 @@
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-
